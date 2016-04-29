@@ -1,0 +1,5 @@
+decltype处理顶层const和引用的方式与auto有些许不同。如果decltype使用的表达式是一个变量，则decltype返回该变量的类型。
+
+decltype和auto的另一处区别是，decltype的结果类型与表达式形式密切相关。比如：
+decltype((variable))的结果永远是引用，而decltype(variable)结果只有variable本身就是一个引用时才是引用。
+
