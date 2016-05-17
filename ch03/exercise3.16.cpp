@@ -12,6 +12,8 @@ int main()
     svec.push_back(str);
   }
 
+  cout << "size: " << svec.size() << endl;
+
   for(auto s : svec)
     cout << s << "";
   cout << endl;
