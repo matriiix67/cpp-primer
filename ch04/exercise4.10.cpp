@@ -1,0 +1,3 @@
+int i = 0;
+while(cin >> i && i != 42)
+    ...
