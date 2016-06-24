@@ -1,7 +1,7 @@
-#include<string>
+#include <string>
 
-class Person
-{
-  std::string name;
-  std::string address;
-}
+class Persion{
+private:
+    std::string name;
+    std::string address;
+};
