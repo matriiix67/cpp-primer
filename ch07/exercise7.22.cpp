@@ -1,32 +1,30 @@
-#include<string>
-#include<iostream>
+#include <string>
+#include <iostream>
 
 class Person
 {
-  friend istream &read(istream &is, Person &person);
-  friend ostream &print(ostream &os, Person &person);
-  
+    friend std::istream &read(std::istream &is, Person &person);
+    friend std::ostream &print(std::ostream &os, const Person &person);
+
 public:
-  Person() = default;
-  Person(std::string name) : name_(name) {}
-  Person(std::string name, std::string address) : name_(name), address_(address) {}
-  std::string getName() { return name; }
-  std::string getAddress() { return address; }
+    Person() = default;
+    Person(const std::string &n, const std::string &a) : name(n), address(a) {}
+    std::string const& getName()    const { return name; }
+    std::string const& getAddress() const { return address; }
 
 private:
-  std::string name_;
-  std::string address_;
+    std::string name;
+    std::string address;
 };
 
-istream &read(istream &is, Person &person)
+
+std::istream &read(std::istream &is, Person &person)
 {
-  is >> person.name >> person.address;
-  return is;
+    return is >> person.name >> person.address;
 }
 
-
-ostream &print(ostream &os, const Person &person)
+std::ostream &print(std::ostream &os, const Person &person)
 {
-  os << "name: " << person.name << ", address: " << person.address << endl;
-  return os;
+    return os << person.name << " " << person.address;
+
 }
