@@ -1,9 +1,1 @@
-typedef double Money;
-class Account{
-public:
-    Money balance() { return bal; }
-    typedef double Money;
-private:
-    //typedef double Money;
-    Money bal;
-};
+// rem会先初始化，但是rem的初始化依赖于base，会导致错误
