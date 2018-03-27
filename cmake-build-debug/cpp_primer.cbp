@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_primer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_BigInt">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_BigInt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_BigInt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_BigInt/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_BigInt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_BigInt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section15">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section15"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section15/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section15/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_no_dtor">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_no_dtor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_no_dtor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_no_dtor/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_no_dtor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_no_dtor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section11">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section11/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="count">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/count" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 count"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="count/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/count" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 count/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partition">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/partition" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 partition"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partition/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/partition" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 partition/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section10">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section10/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section08">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section08/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_default_copy_control">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_default_copy_control" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_default_copy_control"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_default_copy_control/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_default_copy_control" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_default_copy_control/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section12">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="section12/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/section12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 section12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Screen">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Screen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Screen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Screen/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Screen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Screen/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Account">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Account" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Account"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Account/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Account" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Account/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Sales_data">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Sales_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Sales_data"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Sales_data/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Sales_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Sales_data/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_NoDefault">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_NoDefault" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_NoDefault"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_NoDefault/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_NoDefault" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_NoDefault/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Window_mgr">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Window_mgr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Window_mgr"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Window_mgr/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Window_mgr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Window_mgr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Person">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Person" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Person"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Person/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_Person" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_Person/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_section">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_section" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_section"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_section/fast">
+				<Option output="/Users/god/Git/matrix/cpp-primer/cmake-build-debug/test_section" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/god/Git/matrix/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_section/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/god/Git/matrix/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/NoDefault.hpp">
+			<Option target="test_NoDefault"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Person.cpp">
+			<Option target="test_Person"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Person.hpp">
+			<Option target="test_Person"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Sales_data.cpp">
+			<Option target="test_Sales_data"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Sales_data.h">
+			<Option target="test_Sales_data"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Screen.cpp">
+			<Option target="test_Screen"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Screen.h">
+			<Option target="test_Screen"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Window_mgr.cpp">
+			<Option target="test_Screen"/>
+			<Option target="test_Window_mgr"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/Window_mgr.hpp">
+			<Option target="test_Screen"/>
+			<Option target="test_Window_mgr"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/section.cpp">
+			<Option target="test_section"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/test_Account.cpp">
+			<Option target="test_Account"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/test_NoDefault.cpp">
+			<Option target="test_NoDefault"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/test_Person.cpp">
+			<Option target="test_Person"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/test_Sales_data.cpp">
+			<Option target="test_Sales_data"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/test_Screen.cpp">
+			<Option target="test_Screen"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch07/test_Window_mgr.cpp">
+			<Option target="test_Window_mgr"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch08/section.cpp">
+			<Option target="section08"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch10/count.cpp">
+			<Option target="count"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch10/partition.cpp">
+			<Option target="partition"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch10/section.cpp">
+			<Option target="section10"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch11/section.cpp">
+			<Option target="section11"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch12/section.cpp">
+			<Option target="section12"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch13/default_copy_control.h">
+			<Option target="test_default_copy_control"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch13/no_dtor.h">
+			<Option target="test_no_dtor"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch13/test_default_copy_control.cpp">
+			<Option target="test_default_copy_control"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch13/test_no_dtor.cpp">
+			<Option target="test_no_dtor"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/ch15/section.cpp">
+			<Option target="section15"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/practices/BigInt.cpp">
+			<Option target="test_BigInt"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/practices/BigInt.hpp">
+			<Option target="test_BigInt"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/practices/test_BigInt.cpp">
+			<Option target="test_BigInt"/>
+		</Unit>
+		<Unit filename="/Users/god/Git/matrix/cpp-primer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

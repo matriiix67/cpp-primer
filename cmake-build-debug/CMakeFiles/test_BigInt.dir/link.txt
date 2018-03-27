@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_BigInt.dir/practices/test_BigInt.cpp.o CMakeFiles/test_BigInt.dir/practices/BigInt.cpp.o  -o test_BigInt 
