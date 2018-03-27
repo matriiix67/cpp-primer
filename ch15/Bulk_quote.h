@@ -1,15 +1,24 @@
-#include "Quote.h"
-#Include <string>
+//
+// Created by Bourne on 2018/1/3.
+//
 
-class Bulk_quote : public Quote {
+#ifndef CPP_PRIMER_BULK_QUOTE_H
+#define CPP_PRIMER_BULK_QUOTE_H
+
+#include "quote.h"
+#include <string>
+
+class BulkQuote : public Quote
+{
 public:
-  Bulk_quote() = default;
-  Bulk_quote(const std::string &, double, std::size_t, double);
-  double net_price(std::size_t) const override;
+    BulkQuote() = default;
+    BulkQuote(const std::string &book, double p, std::size_t qty, double discount) : Quote(book, p), min_qty_(qty), discount_(discount) {}
 
+    double net_price(std::size_t) const override;
 private:
-  std::size_t min_qty = 0;
-  double discount = 0.0;
-
+    std::size_t min_qty_ = 0;
+    double discount_ = 0.0;
 };
 
+
+#endif //CPP_PRIMER_BULK_QUOTE_H

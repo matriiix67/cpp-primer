@@ -1,15 +1,32 @@
+//
+// Created by Bourne on 2018/1/3.
+//
+
+#ifndef CPP_PRIMER_QUOTE_H
+#define CPP_PRIMER_QUOTE_H
+
 #include <string>
 
-class Quote{
+class Quote
+{
 public:
-    Quote() = defalue;
-    Quote(const std::string &book, double sales_price) : bookNo(book), price(sales_price) {}
+    Quote() = default;
+    Quote(const std::string &book, double sales_price) : book_no_(book), price_(sales_price) {}
     std::string isbn() const { return bookNo; }
-    virtual double net_price(std::size_t n) const { return n * price; }
-    virtual ~Quote() = default;
+    virtual double net_price(std::size_t n) const { return n * price_; }
+    virtual  ~Quote() = default;
 private:
-    std::string bookNo;
+    std::string book_no_;
 protected:
-    double price = 0.0;
+    double price_ = 0.0;
+};
+
+double print_total(std::ostream& os, const Quote &item, size_t n) {
+    double ret = item.net_price(n);
+    os << "ISBN: " << item.isbn()
+       << " # sold: " << n << " total due: " << ret << endl;
+    return ret;
 }
 
+
+#endif //CPP_PRIMER_QUOTE_H
