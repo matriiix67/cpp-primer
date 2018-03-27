@@ -3,31 +3,29 @@ project(cpp_primer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(test_section chapter07/section.cpp)
-add_executable(test_Sales_data chapter07/test_Sales_data.cpp chapter07/Sales_data.cpp)
-add_executable(test_Window_mgr chapter07/test_Window_mgr.cpp chapter07/Window_mgr.cpp)
-add_executable(test_Screen chapter07/test_Screen.cpp chapter07/Screen.cpp chapter07/Window_mgr.cpp)
-add_executable(test_Account chapter07/test_Account.cpp)
+add_executable(test_section ch07/section.cpp)
+add_executable(test_Sales_data ch07/test_Sales_data.cpp ch07/Sales_data.cpp)
+add_executable(test_Window_mgr ch07/test_Window_mgr.cpp ch07/Window_mgr.cpp)
+add_executable(test_Screen ch07/test_Screen.cpp ch07/Screen.cpp ch07/Window_mgr.cpp)
+add_executable(test_Account ch07/test_Account.cpp)
 
-add_executable(test_Person chapter07/test_Person.cpp chapter07/Person.cpp)
-add_executable(test_NoDefault chapter07/test_NoDefault.cpp chapter07/NoDefault.hpp)
+add_executable(test_Person ch07/test_Person.cpp ch07/Person.cpp)
+add_executable(test_NoDefault ch07/test_NoDefault.cpp ch07/NoDefault.hpp)
 
-add_executable(section08 chapter08/section.cpp)
+add_executable(section08 ch08/section.cpp)
 
-add_executable(section10 chapter10/section.cpp)
-add_executable(count chapter10/count.cpp)
-add_executable(partition chapter10/partition.cpp)
+add_executable(section10 ch10/section.cpp)
+add_executable(count ch10/count.cpp)
+add_executable(partition ch10/partition.cpp)
 
 
-add_executable(section11 chapter11/section.cpp)
-add_executable(section12 chapter12/section.cpp)
+add_executable(section11 ch11/section.cpp)
+add_executable(section12 ch12/section.cpp)
 
-add_executable(test_StrBlob chapter12/test_StrBlob.cpp chapter12/StrBlob.cpp)
+add_executable(test_no_dtor ch13/test_no_dtor.cpp ch13/no_dtor.h)
+add_executable(test_default_copy_control ch13/test_default_copy_control.cpp ch13/default_copy_control.h)
 
-add_executable(test_no_dtor chapter13/test_no_dtor.cpp chapter13/no_dtor.h)
-add_executable(test_default_copy_control chapter13/test_default_copy_control.cpp chapter13/default_copy_control.h)
-
-add_executable(section15 chapter15/section.cpp)
+add_executable(section15 ch15/section.cpp)
 
 
 
