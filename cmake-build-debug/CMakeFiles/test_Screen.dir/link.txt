@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_Screen.dir/ch07/test_Screen.cpp.o CMakeFiles/test_Screen.dir/ch07/Screen.cpp.o CMakeFiles/test_Screen.dir/ch07/Window_mgr.cpp.o  -o test_Screen 
