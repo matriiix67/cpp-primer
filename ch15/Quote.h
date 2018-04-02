@@ -11,6 +11,10 @@ class Quote
 {
 public:
     Quote() = default;
+    Quote(const Quote&) = default;
+    Quote(Quote&&) = default;
+    Quote& operator=(const Quote&) = default;
+    Quote& operator=(Quote&&) = default;
     Quote(const std::string &book, double sales_price) : book_no_(book), price_(sales_price) {}
     std::string isbn() const { return bookNo; }
     virtual double net_price(std::size_t n) const { return n * price_; }

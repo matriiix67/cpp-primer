@@ -27,6 +27,7 @@ add_executable(test_default_copy_control ch13/test_default_copy_control.cpp ch13
 
 add_executable(section15 ch15/section.cpp)
 
+add_executable(section16 ch16/section.cpp)
 
 
 add_executable(test_BigInt practices/test_BigInt.cpp practices/BigInt.cpp)

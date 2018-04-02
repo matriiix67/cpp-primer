@@ -9,48 +9,36 @@ using namespace std;
 
 class Base {
 public:
-    Base() : test(10) {}
+    Base() = default;
     virtual ~Base() = default;
 
-    virtual void print(int i = 0) { cout << "hello Base! " << test; }
+    virtual void test1() { cout << "base test1 0" << endl; }
+    virtual void test1(int i) { cout << "base test1: " << i << endl; }
+
+
 protected:
-    int test;
+    int test = 0;
+    int m2 = 1;
 };
 
 
 class Derived : public Base {
 public:
-    Derived() : test(20) {};
-    ~Derived() {};
-
-    void print(int i = 1) override { cout << "hello Derived! " << Base::test; }
-
-private:
-    int test;
+    Derived() = default;
+    ~Derived() = default;
+    using Base::test1;
 };
 
 
-class Derived2 : public Derived {
-public:
-    Derived2(){}
-    ~Derived2() {}
-    void print(int i = 2) override { cout << "hello Derived2 !"; }
-private:
-    int d2test;
-};
 
 int main(int argc, char* argv[]) {
     Base base;
     Derived derived;
 
+    derived.test1(1);
+
     Base* bp = &derived;
-    bp->print();
+    bp->test1(1);
 
-    Derived* dp = &derived;
-    dp->print();
-
-    Derived2 derived2;
-    Base* dp2 = &derived2;
-    dp2->print();
     return 0;
 }
